@@ -1,0 +1,6 @@
+{
+    "noImplicitThis" : true,
+    "noImplicitReturns" : true,
+    "noImplicitAny" : true,
+    "strictNullChecks" : true
+}
