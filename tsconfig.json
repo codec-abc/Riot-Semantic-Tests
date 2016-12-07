@@ -1,6 +1,9 @@
 {
-    "noImplicitThis" : true,
-    "noImplicitReturns" : true,
-    "noImplicitAny" : true,
-    "strictNullChecks" : true
+    "compilerOptions": 
+    {
+        "noImplicitThis" : true,
+        "noImplicitReturns" : true,
+        "noImplicitAny" : true,
+        "strictNullChecks" : true
+    }
 }
