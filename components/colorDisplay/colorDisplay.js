@@ -41,19 +41,19 @@ var ColorDisplayModule;
             var _this = this;
             this.UpdateR = function (e) {
                 var result = Helper.UpdateNumber(e);
-                if (e != null) {
+                if (result != null) {
                     _this.MyColor.R = result;
                 }
             };
             this.UpdateG = function (e) {
                 var result = Helper.UpdateNumber(e);
-                if (e != null) {
+                if (result != null) {
                     _this.MyColor.G = result;
                 }
             };
             this.UpdateB = function (e) {
                 var result = Helper.UpdateNumber(e);
-                if (e != null) {
+                if (result != null) {
                     _this.MyColor.B = result;
                 }
             };

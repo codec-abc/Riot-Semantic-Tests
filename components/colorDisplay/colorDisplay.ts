@@ -64,7 +64,7 @@ module ColorDisplayModule
         (e) =>
         {
             var result = Helper.UpdateNumber(e);
-            if (e != null)
+            if (result != null)
             {
                 this.MyColor.R = result;
             }
@@ -74,7 +74,7 @@ module ColorDisplayModule
         (e) =>
         {
             var result = Helper.UpdateNumber(e);
-            if (e != null)
+            if (result != null)
             {
                 this.MyColor.G = result;
             }
@@ -84,7 +84,7 @@ module ColorDisplayModule
         (e) =>
         {
             var result = Helper.UpdateNumber(e);
-            if (e != null)
+            if (result != null)
             {
                 this.MyColor.B = result;
             }

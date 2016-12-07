@@ -1,16 +1,16 @@
-function counter(opts : any) : void
+function counter(this : any, opts : any) : void
 {
     this.init = () =>
     {
         this.currentValue = opts.initialValue;
     }
 
-    this.clickPlus = (e) =>
+    this.clickPlus = (e : any) =>
     {
         this.currentValue++;
     };
     
-    this.clickMinus = (e) =>
+    this.clickMinus = (e : any) =>
     {
         this.currentValue--;
     };
